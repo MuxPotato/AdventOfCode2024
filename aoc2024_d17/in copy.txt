@@ -1,0 +1,27 @@
+Register A: 25986278
+Register B: 0
+Register C: 0
+
+Program: 2,4,1,4,7,5,4,1,1,4,5,5,0,3,3,0
+
+b = a % 8;
+b = b ^ 4;
+c = a >> b;
+b = b ^ c;
+b = b ^ 4;
+out b % 8;
+a = a >> 3;
+
+
+
+goal: 2,4,1,4,7,5,4,1,1,4,5,5,0,3,3,0
+
+we inverse the problem
+
+ 
+
+
+first 3 bits must give 0;
+
+
+
